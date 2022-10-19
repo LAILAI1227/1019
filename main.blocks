@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="d/i|FK0S^^Bu+Qon|@-k" x="0" y="0"></block><block type="device_forever" id="tgP9$;zx#3)4jT7d{Vge" x="371" y="23"><statement name="HANDLER"><block type="controls_if" id="%Y00yd//?HL(L+i3JF28"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="mbit_Avoid_Sensor" id="vE$3fID~Osa0@@*2F6Wq"><field name="value">mbit_小車類.enAvoidState.OBSTACLE</field></block></value><statement name="DO0"><block type="mbit_RGB_Car_Big2" id="hGp,6k.=u+RFNj(c-fL}"><field name="value">mbit_小車類.enColor.Yellow</field><next><block type="device_show_leds" id="JIB$.Gwo418u?E6qRf9E"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field><next><block type="mbit_CarCtrlSpeed" id="WMVL?sj`I/:A}(IOG%_Z"><field name="index">mbit_小車類.CarState.Car_SpinLeft</field><value name="speed"><shadow type="math_number_minmax" id="[*d0M6o!uCngz*x`P}2x"><mutation min="0" max="255" label="Speed" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><next><block type="device_pause" id="t!Nmn?OsvShqnxSTaY}n"><value name="pause"><shadow type="timePicker" id="Fn#kji=^ntTsD-QYB)?2"><field name="ms">500</field></shadow></value></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="mbit_RGB_Car_Big2" id="Z_[tpjp71@%c1`.7r;i6"><field name="value">mbit_小車類.enColor.Cyan</field><next><block type="mbit_CarCtrlSpeed" id="3FZWgvl[AG~ubojc+}7)"><field name="index">mbit_小車類.CarState.Car_Run</field><value name="speed"><shadow type="math_number_minmax" id="-UH:/![SD_]vMVz,=/,w"><mutation min="0" max="255" label="Speed" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><next><block type="device_show_leds" id="oJrfIc:j3Qid.|bt*h/x"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></statement></block></statement></block></xml>
